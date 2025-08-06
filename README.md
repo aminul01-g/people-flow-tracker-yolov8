@@ -29,7 +29,7 @@ Build an intelligent computer vision system that:
 ## 📆 Requirements
 Install dependencies in Colab:
 ```bash
-!pip install ultralytics opencv-python tqdm
+!pip install -q ultralytics opencv-python tqdm
 ```
 
 ---
@@ -52,7 +52,7 @@ Install dependencies in Colab:
 ---
 
 ## 📹 Output
-- `annotated_video_tracked.mp4`: Video with:
+- `annotated_video_tracked.avi`: Video with:
   - Bounding boxes
   - Person IDs
   - IN/OUT counters
